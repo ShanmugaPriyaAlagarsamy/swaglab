@@ -7,6 +7,27 @@
   <test thread-count="5" name="chrometest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTestWithAcceptedUserNamesAndPassword" invocation-numbers="1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword -->
+      <class name="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyRemovingItemsAddedToCartForDifferentUsers" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers -->
+      <class name="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyUniqueImagesForProducts" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers -->
       <class name="testCases.TC010_VerifySortByPriceHighToLow">
         <methods>
           <include name="verifySortByPriceHighToLow" invocation-numbers="1"/>
@@ -21,6 +42,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC009_VerifySortByPriceLowToHigh -->
+      <class name="testCases.TC012_VerifyUsersCanAddAllProductsToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyUsersCanAddAllProductsToCart" invocation-numbers="1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC012_VerifyUsersCanAddAllProductsToCart -->
     </classes>
   </test> <!-- chrometest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

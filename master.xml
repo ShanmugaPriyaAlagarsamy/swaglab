@@ -11,7 +11,7 @@
     <parameter name="browser" value="chrome"/>
 
     <classes>
-    <!-- <class name="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword"/>
+    <class name="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword"/>
   	<class name="testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword"/>
     <class name="testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword"/>
     <class name="testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword"/>
@@ -23,7 +23,7 @@
     <class name="testCases.TC010_VerifySortByPriceHighToLow"/>
     <class name="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers"/>
     <class name="testCases.TC012_VerifyUsersCanAddAllProductsToCart"/>
-    <class name="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers"/>-->
+    <class name="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers"/>
     <class name="testCases.TC014_VerifyCheckoutFeatureForDifferentUsers"/>
     
     

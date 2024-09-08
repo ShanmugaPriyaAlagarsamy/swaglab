@@ -68,6 +68,7 @@ public class TC014_VerifyCheckoutFeatureForDifferentUsers extends BaseClass {
             softAssert.assertTrue(overviewPage.isOrderConfirmationDisplayed(), 
                 "Order confirmation message is not displayed for user " + username);
             extentTest.pass("Order successfully placed for user " + username);
+            loginPage.clickLogout();
 
         } catch (Exception e) {
             logger.error("Error encountered during checkout for user " + username, e);
@@ -76,11 +77,14 @@ public class TC014_VerifyCheckoutFeatureForDifferentUsers extends BaseClass {
                 String imgPath = captureScreen(driver, "CheckoutError_" + username);
                 extentTest.fail("Exception during checkout for user " + username + ": " + e.getMessage())
                           .addScreenCaptureFromPath(imgPath);
+                extentTest.fail("Unable to checkout for " + username);
             } catch (Exception ioException) {
                 ioException.printStackTrace();
             }
+            
         } finally {
             softAssert.assertAll();
+            
             logger.info("Finished TC014_VerifyCheckoutFeatureForDifferentUsers for user " + username);
         }
     }

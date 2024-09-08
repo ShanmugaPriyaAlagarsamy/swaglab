@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,56 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">31 methods, 8 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers" class="method navigator-link" hash-for-method="VerifyRemovingItemsAddedToCartForDifferentUsers(problem_user, secret_sauce)">VerifyRemovingItemsAddedToCartForDifferentUsers(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers" class="method navigator-link" hash-for-method="VerifyRemovingItemsAddedToCartForDifferentUsers(locked_out_user, secret_sauce)">VerifyRemovingItemsAddedToCartForDifferentUsers(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword" class="method navigator-link" hash-for-method="loginTestWithAcceptedUserNamesAndPassword(locked_out_user, secret_sauce)">loginTestWithAcceptedUserNamesAndPassword(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC010_VerifySortByPriceHighToLow" class="method navigator-link" hash-for-method="verifySortByPriceHighToLow(problem_user, secret_sauce)">verifySortByPriceHighToLow(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC009_VerifySortByPriceLowToHigh" class="method navigator-link" hash-for-method="verifySortByPriceLowToHigh(problem_user, secret_sauce)">verifySortByPriceLowToHigh(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers" class="method navigator-link" hash-for-method="verifyUniqueImagesForProducts(problem_user, secret_sauce)">verifyUniqueImagesForProducts(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC012_VerifyUsersCanAddAllProductsToCart" class="method navigator-link" hash-for-method="verifyUsersCanAddAllProductsToCart(locked_out_user, secret_sauce)">verifyUsersCanAddAllProductsToCart(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC012_VerifyUsersCanAddAllProductsToCart" class="method navigator-link" hash-for-method="verifyUsersCanAddAllProductsToCart(problem_user, secret_sauce)">verifyUsersCanAddAllProductsToCart(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +152,117 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers" class="method navigator-link" hash-for-method="VerifyRemovingItemsAddedToCartForDifferentUsers(standard_user, secret_sauce)">VerifyRemovingItemsAddedToCartForDifferentUsers(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword" class="method navigator-link" hash-for-method="loginTestWithAcceptedUserNamesAndPassword(performance_glitch_user, secret_sauce)">loginTestWithAcceptedUserNamesAndPassword(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword" class="method navigator-link" hash-for-method="loginTestWithAcceptedUserNamesAndPassword(visual_user, secret_sauce)">loginTestWithAcceptedUserNamesAndPassword(visual_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword" class="method navigator-link" hash-for-method="loginTestWithAcceptedUserNamesAndPassword(standard_user, secret_sauce)">loginTestWithAcceptedUserNamesAndPassword(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword" class="method navigator-link" hash-for-method="loginTestWithAcceptedUserNamesAndPassword(problem_user, secret_sauce)">loginTestWithAcceptedUserNamesAndPassword(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword" class="method navigator-link" hash-for-method="loginTestWithAcceptedUserNamesAndPassword(error_user, secret_sauce)">loginTestWithAcceptedUserNamesAndPassword(error_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword" class="method navigator-link" hash-for-method="loginTestWithBlankUsernameAndValidPassword(, secret_sauce)">loginTestWithBlankUsernameAndValidPassword(, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword" class="method navigator-link" hash-for-method="testLoginWithInvalidUserNameAndInvalidPassword(wrong_user1, sssecret_sauce)">testLoginWithInvalidUserNameAndInvalidPassword(wrong_user1, sssecret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword" class="method navigator-link" hash-for-method="testLoginWithInvalidUserNameAndValidPassword(sample_user, secret_sauce)">testLoginWithInvalidUserNameAndValidPassword(sample_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword" class="method navigator-link" hash-for-method="testLoginWithValidUserNamesAndInvalidPassword(standard_user, sssecret_sauce)">testLoginWithValidUserNamesAndInvalidPassword(standard_user, sssecret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC014_VerifyCheckoutFeatureForDifferentUsers" class="method navigator-link" hash-for-method="verifyCheckoutFeatureForDifferentUsers(standard_user, secret_sauce)">verifyCheckoutFeatureForDifferentUsers(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC014_VerifyCheckoutFeatureForDifferentUsers" class="method navigator-link" hash-for-method="verifyCheckoutFeatureForDifferentUsers(problem_user, secret_sauce)">verifyCheckoutFeatureForDifferentUsers(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC007_VerifySortByNameAtoZ" class="method navigator-link" hash-for-method="verifySortByNameAtoZ(standard_user, secret_sauce)">verifySortByNameAtoZ(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC007_VerifySortByNameAtoZ" class="method navigator-link" hash-for-method="verifySortByNameAtoZ(problem_user, secret_sauce)">verifySortByNameAtoZ(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC008_VerifySortByNameZtoA" class="method navigator-link" hash-for-method="verifySortByNameZtoA(problem_user, secret_sauce)">verifySortByNameZtoA(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC008_VerifySortByNameZtoA" class="method navigator-link" hash-for-method="verifySortByNameZtoA(standard_user, secret_sauce)">verifySortByNameZtoA(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC010_VerifySortByPriceHighToLow" class="method navigator-link" hash-for-method="verifySortByPriceHighToLow(standard_user, secret_sauce)">verifySortByPriceHighToLow(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC009_VerifySortByPriceLowToHigh" class="method navigator-link" hash-for-method="verifySortByPriceLowToHigh(standard_user, secret_sauce)">verifySortByPriceLowToHigh(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_VerifySortFunctionIsAvailable" class="method navigator-link" hash-for-method="verifySortFunctionIsAvailable(standard_user, secret_sauce)">verifySortFunctionIsAvailable(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC006_VerifySortFunctionIsAvailable" class="method navigator-link" hash-for-method="verifySortFunctionIsAvailable(problem_user, secret_sauce)">verifySortFunctionIsAvailable(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers" class="method navigator-link" hash-for-method="verifyUniqueImagesForProducts(standard_user, secret_sauce)">verifyUniqueImagesForProducts(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers" class="method navigator-link" hash-for-method="verifyUniqueImagesForProducts(locked_out_user, secret_sauce)">verifyUniqueImagesForProducts(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC012_VerifyUsersCanAddAllProductsToCart" class="method navigator-link" hash-for-method="verifyUsersCanAddAllProductsToCart(standard_user, secret_sauce)">verifyUsersCanAddAllProductsToCart(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -123,6 +277,312 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithAcceptedUserNamesAndPassword(locked_out_user, secret_sauce)">
+                  </a> <!-- loginTestWithAcceptedUserNamesAndPassword(locked_out_user, secret_sauce) -->
+                  <span class="method-name">loginTestWithAcceptedUserNamesAndPassword</span>
+                  <span class="parameters">(locked_out_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: locked_out_user - no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#react\-burger\-menu\-btn&quot;}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f19972d7835690824a60d85a857529c, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\61434\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f19972d7835690824a60d85a857529c
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRemovingItemsAddedToCartForDifferentUsers(problem_user, secret_sauce)">
+                  </a> <!-- VerifyRemovingItemsAddedToCartForDifferentUsers(problem_user, secret_sauce) -->
+                  <span class="method-name">VerifyRemovingItemsAddedToCartForDifferentUsers</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Unable to remove all items from cart for user problem_user expected [0] but found [3]
+	at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRemovingItemsAddedToCartForDifferentUsers(locked_out_user, secret_sauce)">
+                  </a> <!-- VerifyRemovingItemsAddedToCartForDifferentUsers(locked_out_user, secret_sauce) -->
+                  <span class="method-name">VerifyRemovingItemsAddedToCartForDifferentUsers</span>
+                  <span class="parameters">(locked_out_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC009_VerifySortByPriceLowToHigh</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByPriceLowToHigh(problem_user, secret_sauce)">
+                  </a> <!-- verifySortByPriceLowToHigh(problem_user, secret_sauce) -->
+                  <span class="method-name">verifySortByPriceLowToHigh</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Products are not sorted by price from Low to High for problem_user: Lists differ at element [0]: 7.99 != 29.99 expected [7.99] but found [29.99]
+	at testCases.TC009_VerifySortByPriceLowToHigh.verifySortByPriceLowToHigh(TC009_VerifySortByPriceLowToHigh.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC010_VerifySortByPriceHighToLow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByPriceHighToLow(problem_user, secret_sauce)">
+                  </a> <!-- verifySortByPriceHighToLow(problem_user, secret_sauce) -->
+                  <span class="method-name">verifySortByPriceHighToLow</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Products are not sorted by price from High To Low for user problem_user: Lists differ at element [0]: 49.99 != 29.99 expected [49.99] but found [29.99]
+	at testCases.TC010_VerifySortByPriceHighToLow.verifySortByPriceHighToLow(TC010_VerifySortByPriceHighToLow.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUniqueImagesForProducts(problem_user, secret_sauce)">
+                  </a> <!-- verifyUniqueImagesForProducts(problem_user, secret_sauce) -->
+                  <span class="method-name">verifyUniqueImagesForProducts</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Duplicate product images found! Some products share the same image for user &apos;problem_user&apos; expected [6] but found [1]
+	at testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts(TC011_VerifyUniqueImagesForProductsForDifferentUsers.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC012_VerifyUsersCanAddAllProductsToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsersCanAddAllProductsToCart(locked_out_user, secret_sauce)">
+                  </a> <!-- verifyUsersCanAddAllProductsToCart(locked_out_user, secret_sauce) -->
+                  <span class="method-name">verifyUsersCanAddAllProductsToCart</span>
+                  <span class="parameters">(locked_out_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsersCanAddAllProductsToCart(problem_user, secret_sauce)">
+                  </a> <!-- verifyUsersCanAddAllProductsToCart(problem_user, secret_sauce) -->
+                  <span class="method-name">verifyUsersCanAddAllProductsToCart</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The number of products added to the cart does not match the total number of products. expected [6] but found [3]
+	at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidUserNamesAndInvalidPassword(standard_user, sssecret_sauce)">
+                  </a> <!-- testLoginWithValidUserNamesAndInvalidPassword(standard_user, sssecret_sauce) -->
+                  <span class="method-name">testLoginWithValidUserNamesAndInvalidPassword</span>
+                  <span class="parameters">(standard_user,sssecret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUniqueImagesForProducts(standard_user, secret_sauce)">
+                  </a> <!-- verifyUniqueImagesForProducts(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyUniqueImagesForProducts</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUniqueImagesForProducts(locked_out_user, secret_sauce)">
+                  </a> <!-- verifyUniqueImagesForProducts(locked_out_user, secret_sauce) -->
+                  <span class="method-name">verifyUniqueImagesForProducts</span>
+                  <span class="parameters">(locked_out_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC007_VerifySortByNameAtoZ</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByNameAtoZ(standard_user, secret_sauce)">
+                  </a> <!-- verifySortByNameAtoZ(standard_user, secret_sauce) -->
+                  <span class="method-name">verifySortByNameAtoZ</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByNameAtoZ(problem_user, secret_sauce)">
+                  </a> <!-- verifySortByNameAtoZ(problem_user, secret_sauce) -->
+                  <span class="method-name">verifySortByNameAtoZ</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidUserNameAndValidPassword(sample_user, secret_sauce)">
+                  </a> <!-- testLoginWithInvalidUserNameAndValidPassword(sample_user, secret_sauce) -->
+                  <span class="method-name">testLoginWithInvalidUserNameAndValidPassword</span>
+                  <span class="parameters">(sample_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithAcceptedUserNamesAndPassword(performance_glitch_user, secret_sauce)">
+                  </a> <!-- loginTestWithAcceptedUserNamesAndPassword(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">loginTestWithAcceptedUserNamesAndPassword</span>
+                  <span class="parameters">(performance_glitch_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithAcceptedUserNamesAndPassword(visual_user, secret_sauce)">
+                  </a> <!-- loginTestWithAcceptedUserNamesAndPassword(visual_user, secret_sauce) -->
+                  <span class="method-name">loginTestWithAcceptedUserNamesAndPassword</span>
+                  <span class="parameters">(visual_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithAcceptedUserNamesAndPassword(standard_user, secret_sauce)">
+                  </a> <!-- loginTestWithAcceptedUserNamesAndPassword(standard_user, secret_sauce) -->
+                  <span class="method-name">loginTestWithAcceptedUserNamesAndPassword</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithAcceptedUserNamesAndPassword(problem_user, secret_sauce)">
+                  </a> <!-- loginTestWithAcceptedUserNamesAndPassword(problem_user, secret_sauce) -->
+                  <span class="method-name">loginTestWithAcceptedUserNamesAndPassword</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithAcceptedUserNamesAndPassword(error_user, secret_sauce)">
+                  </a> <!-- loginTestWithAcceptedUserNamesAndPassword(error_user, secret_sauce) -->
+                  <span class="method-name">loginTestWithAcceptedUserNamesAndPassword</span>
+                  <span class="parameters">(error_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRemovingItemsAddedToCartForDifferentUsers(standard_user, secret_sauce)">
+                  </a> <!-- VerifyRemovingItemsAddedToCartForDifferentUsers(standard_user, secret_sauce) -->
+                  <span class="method-name">VerifyRemovingItemsAddedToCartForDifferentUsers</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -147,6 +607,134 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC009_VerifySortByPriceLowToHigh</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByPriceLowToHigh(standard_user, secret_sauce)">
+                  </a> <!-- verifySortByPriceLowToHigh(standard_user, secret_sauce) -->
+                  <span class="method-name">verifySortByPriceLowToHigh</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithBlankUsernameAndValidPassword(, secret_sauce)">
+                  </a> <!-- loginTestWithBlankUsernameAndValidPassword(, secret_sauce) -->
+                  <span class="method-name">loginTestWithBlankUsernameAndValidPassword</span>
+                  <span class="parameters">(,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC010_VerifySortByPriceHighToLow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByPriceHighToLow(standard_user, secret_sauce)">
+                  </a> <!-- verifySortByPriceHighToLow(standard_user, secret_sauce) -->
+                  <span class="method-name">verifySortByPriceHighToLow</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC006_VerifySortFunctionIsAvailable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortFunctionIsAvailable(standard_user, secret_sauce)">
+                  </a> <!-- verifySortFunctionIsAvailable(standard_user, secret_sauce) -->
+                  <span class="method-name">verifySortFunctionIsAvailable</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortFunctionIsAvailable(problem_user, secret_sauce)">
+                  </a> <!-- verifySortFunctionIsAvailable(problem_user, secret_sauce) -->
+                  <span class="method-name">verifySortFunctionIsAvailable</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC008_VerifySortByNameZtoA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByNameZtoA(problem_user, secret_sauce)">
+                  </a> <!-- verifySortByNameZtoA(problem_user, secret_sauce) -->
+                  <span class="method-name">verifySortByNameZtoA</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortByNameZtoA(standard_user, secret_sauce)">
+                  </a> <!-- verifySortByNameZtoA(standard_user, secret_sauce) -->
+                  <span class="method-name">verifySortByNameZtoA</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInvalidUserNameAndInvalidPassword(wrong_user1, sssecret_sauce)">
+                  </a> <!-- testLoginWithInvalidUserNameAndInvalidPassword(wrong_user1, sssecret_sauce) -->
+                  <span class="method-name">testLoginWithInvalidUserNameAndInvalidPassword</span>
+                  <span class="parameters">(wrong_user1,sssecret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC012_VerifyUsersCanAddAllProductsToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsersCanAddAllProductsToCart(standard_user, secret_sauce)">
+                  </a> <!-- verifyUsersCanAddAllProductsToCart(standard_user, secret_sauce) -->
+                  <span class="method-name">verifyUsersCanAddAllProductsToCart</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -163,6 +751,19 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;chrometest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC006_VerifySortFunctionIsAvailable&quot;/&gt;
+      &lt;class name=&quot;testCases.TC007_VerifySortByNameAtoZ&quot;/&gt;
+      &lt;class name=&quot;testCases.TC008_VerifySortByNameZtoA&quot;/&gt;
+      &lt;class name=&quot;testCases.TC009_VerifySortByPriceLowToHigh&quot;/&gt;
+      &lt;class name=&quot;testCases.TC010_VerifySortByPriceHighToLow&quot;/&gt;
+      &lt;class name=&quot;testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers&quot;/&gt;
+      &lt;class name=&quot;testCases.TC012_VerifyUsersCanAddAllProductsToCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers&quot;/&gt;
       &lt;class name=&quot;testCases.TC014_VerifyCheckoutFeatureForDifferentUsers&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chrometest --&gt;
@@ -177,7 +778,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">chrometest (1 class)</span>
+                <span class="test-name">chrometest (14 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -203,20 +804,136 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(31);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyCheckoutFeatureForDifferentUsers')
-data.setCell(0, 2, 'testCases.TC014_VerifyCheckoutFeatureForDifferentUsers')
-data.setCell(0, 3, 11424);
+data.setCell(0, 1, 'loginTestWithAcceptedUserNamesAndPassword')
+data.setCell(0, 2, 'testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword')
+data.setCell(0, 3, 12600);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyCheckoutFeatureForDifferentUsers')
-data.setCell(1, 2, 'testCases.TC014_VerifyCheckoutFeatureForDifferentUsers')
-data.setCell(1, 3, 10211);
+data.setCell(1, 1, 'VerifyRemovingItemsAddedToCartForDifferentUsers')
+data.setCell(1, 2, 'testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers')
+data.setCell(1, 3, 11477);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySortByNameZtoA')
+data.setCell(2, 2, 'testCases.TC008_VerifySortByNameZtoA')
+data.setCell(2, 3, 10989);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySortByNameAtoZ')
+data.setCell(3, 2, 'testCases.TC007_VerifySortByNameAtoZ')
+data.setCell(3, 3, 10964);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCheckoutFeatureForDifferentUsers')
+data.setCell(4, 2, 'testCases.TC014_VerifyCheckoutFeatureForDifferentUsers')
+data.setCell(4, 3, 10854);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySortByNameZtoA')
+data.setCell(5, 2, 'testCases.TC008_VerifySortByNameZtoA')
+data.setCell(5, 3, 10848);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySortByNameAtoZ')
+data.setCell(6, 2, 'testCases.TC007_VerifySortByNameAtoZ')
+data.setCell(6, 3, 10776);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTestWithAcceptedUserNamesAndPassword')
+data.setCell(7, 2, 'testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword')
+data.setCell(7, 3, 7633);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTestWithAcceptedUserNamesAndPassword')
+data.setCell(8, 2, 'testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword')
+data.setCell(8, 3, 2923);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTestWithAcceptedUserNamesAndPassword')
+data.setCell(9, 2, 'testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword')
+data.setCell(9, 3, 2666);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTestWithAcceptedUserNamesAndPassword')
+data.setCell(10, 2, 'testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword')
+data.setCell(10, 3, 2638);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTestWithAcceptedUserNamesAndPassword')
+data.setCell(11, 2, 'testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword')
+data.setCell(11, 3, 2566);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginWithInvalidUserNameAndInvalidPassword')
+data.setCell(12, 2, 'testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword')
+data.setCell(12, 3, 2513);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginWithInvalidUserNameAndValidPassword')
+data.setCell(13, 2, 'testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword')
+data.setCell(13, 3, 2448);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginWithValidUserNamesAndInvalidPassword')
+data.setCell(14, 2, 'testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword')
+data.setCell(14, 3, 2448);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyCheckoutFeatureForDifferentUsers')
+data.setCell(15, 2, 'testCases.TC014_VerifyCheckoutFeatureForDifferentUsers')
+data.setCell(15, 3, 1440);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyUsersCanAddAllProductsToCart')
+data.setCell(16, 2, 'testCases.TC012_VerifyUsersCanAddAllProductsToCart')
+data.setCell(16, 3, 1157);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySortByPriceHighToLow')
+data.setCell(17, 2, 'testCases.TC010_VerifySortByPriceHighToLow')
+data.setCell(17, 3, 1015);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifySortByPriceLowToHigh')
+data.setCell(18, 2, 'testCases.TC009_VerifySortByPriceLowToHigh')
+data.setCell(18, 3, 974);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyUniqueImagesForProducts')
+data.setCell(19, 2, 'testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers')
+data.setCell(19, 3, 884);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifySortFunctionIsAvailable')
+data.setCell(20, 2, 'testCases.TC006_VerifySortFunctionIsAvailable')
+data.setCell(20, 3, 784);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifyRemovingItemsAddedToCartForDifferentUsers')
+data.setCell(21, 2, 'testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers')
+data.setCell(21, 3, 725);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyRemovingItemsAddedToCartForDifferentUsers')
+data.setCell(22, 2, 'testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers')
+data.setCell(22, 3, 620);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyUsersCanAddAllProductsToCart')
+data.setCell(23, 2, 'testCases.TC012_VerifyUsersCanAddAllProductsToCart')
+data.setCell(23, 3, 555);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginTestWithBlankUsernameAndValidPassword')
+data.setCell(24, 2, 'testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword')
+data.setCell(24, 3, 493);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifySortByPriceLowToHigh')
+data.setCell(25, 2, 'testCases.TC009_VerifySortByPriceLowToHigh')
+data.setCell(25, 3, 453);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySortFunctionIsAvailable')
+data.setCell(26, 2, 'testCases.TC006_VerifySortFunctionIsAvailable')
+data.setCell(26, 3, 451);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySortByPriceHighToLow')
+data.setCell(27, 2, 'testCases.TC010_VerifySortByPriceHighToLow')
+data.setCell(27, 3, 414);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyUniqueImagesForProducts')
+data.setCell(28, 2, 'testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers')
+data.setCell(28, 3, 374);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyUniqueImagesForProducts')
+data.setCell(29, 2, 'testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers')
+data.setCell(29, 3, 358);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyUsersCanAddAllProductsToCart')
+data.setCell(30, 2, 'testCases.TC012_VerifyUsersCanAddAllProductsToCart')
+data.setCell(30, 3, 336);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -242,22 +959,297 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC014_VerifyCheckoutFeatureForDifferentUsers</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifyCheckoutFeatureForDifferentUsers(standard_user, secret_sauce)</span>
-                <span class="method-start">3228 ms</span>
+                <span class="method-name">loginTestWithAcceptedUserNamesAndPassword(standard_user, secret_sauce)</span>
+                <span class="method-start">4290 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyCheckoutFeatureForDifferentUsers(problem_user, secret_sauce)</span>
-                <span class="method-start">14652 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTestWithAcceptedUserNamesAndPassword(locked_out_user, secret_sauce)</span>
+                <span class="method-start">7216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithAcceptedUserNamesAndPassword(problem_user, secret_sauce)</span>
+                <span class="method-start">19954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithAcceptedUserNamesAndPassword(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">22620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithAcceptedUserNamesAndPassword(error_user, secret_sauce)</span>
+                <span class="method-start">30255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithAcceptedUserNamesAndPassword(visual_user, secret_sauce)</span>
+                <span class="method-start">32824 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24863 ms</span>
+                <span class="method-start">35466 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">36257 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidUserNamesAndInvalidPassword(standard_user, sssecret_sauce)</span>
+                <span class="method-start">38686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41137 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">41860 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidUserNameAndValidPassword(sample_user, secret_sauce)</span>
+                <span class="method-start">44300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46750 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">47479 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInvalidUserNameAndInvalidPassword(wrong_user1, sssecret_sauce)</span>
+                <span class="method-start">49941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52456 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">53183 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithBlankUsernameAndValidPassword(, secret_sauce)</span>
+                <span class="method-start">55440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55934 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC006_VerifySortFunctionIsAvailable</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">56651 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySortFunctionIsAvailable(standard_user, secret_sauce)</span>
+                <span class="method-start">58844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySortFunctionIsAvailable(problem_user, secret_sauce)</span>
+                <span class="method-start">59630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60085 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC007_VerifySortByNameAtoZ</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">60808 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByNameAtoZ(standard_user, secret_sauce)</span>
+                <span class="method-start">63077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySortByNameAtoZ(problem_user, secret_sauce)</span>
+                <span class="method-start">74043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84822 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC008_VerifySortByNameZtoA</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">85619 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByNameZtoA(standard_user, secret_sauce)</span>
+                <span class="method-start">88730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySortByNameZtoA(problem_user, secret_sauce)</span>
+                <span class="method-start">99720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110570 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC009_VerifySortByPriceLowToHigh</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">111318 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByPriceLowToHigh(standard_user, secret_sauce)</span>
+                <span class="method-start">113562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySortByPriceLowToHigh(problem_user, secret_sauce)</span>
+                <span class="method-start">114537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115169 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC010_VerifySortByPriceHighToLow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">115894 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySortByPriceHighToLow(standard_user, secret_sauce)</span>
+                <span class="method-start">118117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySortByPriceHighToLow(problem_user, secret_sauce)</span>
+                <span class="method-start">119134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119716 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">120465 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyUniqueImagesForProducts(standard_user, secret_sauce)</span>
+                <span class="method-start">122582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUniqueImagesForProducts(locked_out_user, secret_sauce)</span>
+                <span class="method-start">123470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUniqueImagesForProducts(problem_user, secret_sauce)</span>
+                <span class="method-start">123845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124361 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC012_VerifyUsersCanAddAllProductsToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">125073 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyUsersCanAddAllProductsToCart(standard_user, secret_sauce)</span>
+                <span class="method-start">127279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUsersCanAddAllProductsToCart(locked_out_user, secret_sauce)</span>
+                <span class="method-start">128437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUsersCanAddAllProductsToCart(problem_user, secret_sauce)</span>
+                <span class="method-start">128922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129661 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">130426 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRemovingItemsAddedToCartForDifferentUsers(standard_user, secret_sauce)</span>
+                <span class="method-start">132620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyRemovingItemsAddedToCartForDifferentUsers(locked_out_user, secret_sauce)</span>
+                <span class="method-start">144099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyRemovingItemsAddedToCartForDifferentUsers(problem_user, secret_sauce)</span>
+                <span class="method-start">144873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145803 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC014_VerifyCheckoutFeatureForDifferentUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">146580 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutFeatureForDifferentUsers(standard_user, secret_sauce)</span>
+                <span class="method-start">148856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutFeatureForDifferentUsers(problem_user, secret_sauce)</span>
+                <span class="method-start">150297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">161151 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="31" passed="23" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-09T01:38:39 AEST" name="Suite" finished-at="2024-09-09T01:39:05 AEST" duration-ms="25858">
+  <suite started-at="2024-09-09T02:08:42 AEST" name="Suite" finished-at="2024-09-09T02:11:25 AEST" duration-ms="163228">
     <groups>
     </groups>
-    <test started-at="2024-09-09T01:38:39 AEST" name="chrometest" finished-at="2024-09-09T01:39:05 AEST" duration-ms="25858">
-      <class name="testCases.TC014_VerifyCheckoutFeatureForDifferentUsers">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@23bff419]" started-at="2024-09-09T01:38:39 AEST" name="setup" finished-at="2024-09-09T01:38:42 AEST" duration-ms="3162" status="PASS">
+    <test started-at="2024-09-09T02:08:42 AEST" name="chrometest" finished-at="2024-09-09T02:11:25 AEST" duration-ms="163228">
+      <class name="testCases.TC007_VerifySortByNameAtoZ">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC007_VerifySortByNameAtoZ@60975100]" started-at="2024-09-09T02:09:43 AEST" name="setup" finished-at="2024-09-09T02:09:45 AEST" duration-ms="2265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,366 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCheckoutFeatureForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@23bff419]" started-at="2024-09-09T01:38:42 AEST" name="verifyCheckoutFeatureForDifferentUsers" data-provider="LoginData" finished-at="2024-09-09T01:38:54 AEST" duration-ms="11424" status="PASS">
+        <test-method signature="verifySortByNameAtoZ(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_VerifySortByNameAtoZ@60975100]" started-at="2024-09-09T02:09:45 AEST" name="verifySortByNameAtoZ" data-provider="LoginData" finished-at="2024-09-09T02:09:56 AEST" duration-ms="10964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByNameAtoZ -->
+        <test-method signature="verifySortByNameAtoZ(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_VerifySortByNameAtoZ@60975100]" started-at="2024-09-09T02:09:56 AEST" name="verifySortByNameAtoZ" data-provider="LoginData" finished-at="2024-09-09T02:10:07 AEST" duration-ms="10776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByNameAtoZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_VerifySortByNameAtoZ@60975100]" started-at="2024-09-09T02:10:07 AEST" name="tearDown" finished-at="2024-09-09T02:10:08 AEST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC007_VerifySortByNameAtoZ -->
+      <class name="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195]" started-at="2024-09-09T02:10:42 AEST" name="setup" finished-at="2024-09-09T02:10:44 AEST" duration-ms="2115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUniqueImagesForProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195]" started-at="2024-09-09T02:10:44 AEST" name="verifyUniqueImagesForProducts" data-provider="ImageTestUsers" finished-at="2024-09-09T02:10:45 AEST" duration-ms="884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueImagesForProducts -->
+        <test-method signature="verifyUniqueImagesForProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195]" started-at="2024-09-09T02:10:45 AEST" name="verifyUniqueImagesForProducts" data-provider="ImageTestUsers" finished-at="2024-09-09T02:10:46 AEST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueImagesForProducts -->
+        <test-method signature="verifyUniqueImagesForProducts(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195]" started-at="2024-09-09T02:10:46 AEST" name="verifyUniqueImagesForProducts" data-provider="ImageTestUsers" finished-at="2024-09-09T02:10:46 AEST" duration-ms="358" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Duplicate product images found! Some products share the same image for user 'problem_user' expected [6] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Duplicate product images found! Some products share the same image for user 'problem_user' expected [6] but found [1]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts(TC011_VerifyUniqueImagesForProductsForDifferentUsers.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueImagesForProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195]" started-at="2024-09-09T02:10:46 AEST" name="tearDown" finished-at="2024-09-09T02:10:47 AEST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers -->
+      <class name="testCases.TC012_VerifyUsersCanAddAllProductsToCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480]" started-at="2024-09-09T02:10:47 AEST" name="setup" finished-at="2024-09-09T02:10:49 AEST" duration-ms="2202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUsersCanAddAllProductsToCart(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480]" started-at="2024-09-09T02:10:49 AEST" name="verifyUsersCanAddAllProductsToCart" data-provider="ImageTestUsers" finished-at="2024-09-09T02:10:50 AEST" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersCanAddAllProductsToCart -->
+        <test-method signature="verifyUsersCanAddAllProductsToCart(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480]" started-at="2024-09-09T02:10:50 AEST" name="verifyUsersCanAddAllProductsToCart" data-provider="ImageTestUsers" finished-at="2024-09-09T02:10:51 AEST" duration-ms="336" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersCanAddAllProductsToCart -->
+        <test-method signature="verifyUsersCanAddAllProductsToCart(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480]" started-at="2024-09-09T02:10:51 AEST" name="verifyUsersCanAddAllProductsToCart" data-provider="ImageTestUsers" finished-at="2024-09-09T02:10:51 AEST" duration-ms="555" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The number of products added to the cart does not match the total number of products. expected [6] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The number of products added to the cart does not match the total number of products. expected [6] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersCanAddAllProductsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480]" started-at="2024-09-09T02:10:52 AEST" name="tearDown" finished-at="2024-09-09T02:10:52 AEST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC012_VerifyUsersCanAddAllProductsToCart -->
+      <class name="testCases.TC008_VerifySortByNameZtoA">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC008_VerifySortByNameZtoA@1253e7cb]" started-at="2024-09-09T02:10:08 AEST" name="setup" finished-at="2024-09-09T02:10:11 AEST" duration-ms="3110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySortByNameZtoA(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_VerifySortByNameZtoA@1253e7cb]" started-at="2024-09-09T02:10:11 AEST" name="verifySortByNameZtoA" data-provider="LoginData" finished-at="2024-09-09T02:10:22 AEST" duration-ms="10989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByNameZtoA -->
+        <test-method signature="verifySortByNameZtoA(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_VerifySortByNameZtoA@1253e7cb]" started-at="2024-09-09T02:10:22 AEST" name="verifySortByNameZtoA" data-provider="LoginData" finished-at="2024-09-09T02:10:32 AEST" duration-ms="10848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByNameZtoA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_VerifySortByNameZtoA@1253e7cb]" started-at="2024-09-09T02:10:32 AEST" name="tearDown" finished-at="2024-09-09T02:10:33 AEST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC008_VerifySortByNameZtoA -->
+      <class name="testCases.TC014_VerifyCheckoutFeatureForDifferentUsers">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@302a07d]" started-at="2024-09-09T02:11:08 AEST" name="setup" finished-at="2024-09-09T02:11:11 AEST" duration-ms="2276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckoutFeatureForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@302a07d]" started-at="2024-09-09T02:11:11 AEST" name="verifyCheckoutFeatureForDifferentUsers" data-provider="LoginData" finished-at="2024-09-09T02:11:12 AEST" duration-ms="1440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +393,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutFeatureForDifferentUsers -->
-        <test-method signature="verifyCheckoutFeatureForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@23bff419]" started-at="2024-09-09T01:38:54 AEST" name="verifyCheckoutFeatureForDifferentUsers" data-provider="LoginData" finished-at="2024-09-09T01:39:04 AEST" duration-ms="10211" status="PASS">
+        <test-method signature="verifyCheckoutFeatureForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@302a07d]" started-at="2024-09-09T02:11:12 AEST" name="verifyCheckoutFeatureForDifferentUsers" data-provider="LoginData" finished-at="2024-09-09T02:11:23 AEST" duration-ms="10854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,11 +409,699 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutFeatureForDifferentUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@23bff419]" started-at="2024-09-09T01:39:04 AEST" name="tearDown" finished-at="2024-09-09T01:39:05 AEST" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@302a07d]" started-at="2024-09-09T02:11:23 AEST" name="tearDown" finished-at="2024-09-09T02:11:25 AEST" duration-ms="1835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC014_VerifyCheckoutFeatureForDifferentUsers -->
+      <class name="testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword@40dff0b7]" started-at="2024-09-09T02:09:35 AEST" name="setup" finished-at="2024-09-09T02:09:37 AEST" duration-ms="2253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestWithBlankUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword@40dff0b7]" started-at="2024-09-09T02:09:37 AEST" name="loginTestWithBlankUsernameAndValidPassword" data-provider="LoginDataWithBlankUsernameAndValidPassword" finished-at="2024-09-09T02:09:38 AEST" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithBlankUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword@40dff0b7]" started-at="2024-09-09T02:09:38 AEST" name="tearDown" finished-at="2024-09-09T02:09:39 AEST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword -->
+      <class name="testCases.TC010_VerifySortByPriceHighToLow">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC010_VerifySortByPriceHighToLow@61c9c3fd]" started-at="2024-09-09T02:10:38 AEST" name="setup" finished-at="2024-09-09T02:10:40 AEST" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySortByPriceHighToLow(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_VerifySortByPriceHighToLow@61c9c3fd]" started-at="2024-09-09T02:10:40 AEST" name="verifySortByPriceHighToLow" data-provider="LoginData" finished-at="2024-09-09T02:10:41 AEST" duration-ms="1015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByPriceHighToLow -->
+        <test-method signature="verifySortByPriceHighToLow(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_VerifySortByPriceHighToLow@61c9c3fd]" started-at="2024-09-09T02:10:41 AEST" name="verifySortByPriceHighToLow" data-provider="LoginData" finished-at="2024-09-09T02:10:41 AEST" duration-ms="414" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Products are not sorted by price from High To Low for user problem_user: Lists differ at element [0]: 49.99 != 29.99 expected [49.99] but found [29.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Products are not sorted by price from High To Low for user problem_user: Lists differ at element [0]: 49.99 != 29.99 expected [49.99] but found [29.99]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:1644)
+at testCases.TC010_VerifySortByPriceHighToLow.verifySortByPriceHighToLow(TC010_VerifySortByPriceHighToLow.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_VerifySortByPriceHighToLow@61c9c3fd]" started-at="2024-09-09T02:10:42 AEST" name="tearDown" finished-at="2024-09-09T02:10:42 AEST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC010_VerifySortByPriceHighToLow -->
+      <class name="testCases.TC009_VerifySortByPriceLowToHigh">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC009_VerifySortByPriceLowToHigh@2d36e77e]" started-at="2024-09-09T02:10:33 AEST" name="setup" finished-at="2024-09-09T02:10:35 AEST" duration-ms="2244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySortByPriceLowToHigh(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_VerifySortByPriceLowToHigh@2d36e77e]" started-at="2024-09-09T02:10:35 AEST" name="verifySortByPriceLowToHigh" data-provider="LoginData" finished-at="2024-09-09T02:10:36 AEST" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByPriceLowToHigh -->
+        <test-method signature="verifySortByPriceLowToHigh(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_VerifySortByPriceLowToHigh@2d36e77e]" started-at="2024-09-09T02:10:36 AEST" name="verifySortByPriceLowToHigh" data-provider="LoginData" finished-at="2024-09-09T02:10:37 AEST" duration-ms="453" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Products are not sorted by price from Low to High for problem_user: Lists differ at element [0]: 7.99 != 29.99 expected [7.99] but found [29.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Products are not sorted by price from Low to High for problem_user: Lists differ at element [0]: 7.99 != 29.99 expected [7.99] but found [29.99]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:1644)
+at testCases.TC009_VerifySortByPriceLowToHigh.verifySortByPriceLowToHigh(TC009_VerifySortByPriceLowToHigh.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_VerifySortByPriceLowToHigh@2d36e77e]" started-at="2024-09-09T02:10:37 AEST" name="tearDown" finished-at="2024-09-09T02:10:38 AEST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC009_VerifySortByPriceLowToHigh -->
+      <class name="testCases.TC006_VerifySortFunctionIsAvailable">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC006_VerifySortFunctionIsAvailable@7966baa7]" started-at="2024-09-09T02:09:39 AEST" name="setup" finished-at="2024-09-09T02:09:41 AEST" duration-ms="2191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySortFunctionIsAvailable(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_VerifySortFunctionIsAvailable@7966baa7]" started-at="2024-09-09T02:09:41 AEST" name="verifySortFunctionIsAvailable" data-provider="LoginData" finished-at="2024-09-09T02:09:42 AEST" duration-ms="784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortFunctionIsAvailable -->
+        <test-method signature="verifySortFunctionIsAvailable(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_VerifySortFunctionIsAvailable@7966baa7]" started-at="2024-09-09T02:09:42 AEST" name="verifySortFunctionIsAvailable" data-provider="LoginData" finished-at="2024-09-09T02:09:42 AEST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortFunctionIsAvailable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_VerifySortFunctionIsAvailable@7966baa7]" started-at="2024-09-09T02:09:42 AEST" name="tearDown" finished-at="2024-09-09T02:09:43 AEST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_VerifySortFunctionIsAvailable -->
+      <class name="testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword@53142455]" started-at="2024-09-09T02:09:29 AEST" name="setup" finished-at="2024-09-09T02:09:32 AEST" duration-ms="2263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidUserNameAndInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword@53142455]" started-at="2024-09-09T02:09:32 AEST" name="testLoginWithInvalidUserNameAndInvalidPassword" data-provider="LoginDataWithInvalidUsernameAndInvalidPassword" finished-at="2024-09-09T02:09:34 AEST" duration-ms="2513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sssecret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword@53142455]" started-at="2024-09-09T02:09:34 AEST" name="tearDown" finished-at="2024-09-09T02:09:35 AEST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword -->
+      <class name="testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword@784c3487]" started-at="2024-09-09T02:09:24 AEST" name="setup" finished-at="2024-09-09T02:09:26 AEST" duration-ms="2247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword@784c3487]" started-at="2024-09-09T02:09:26 AEST" name="testLoginWithInvalidUserNameAndValidPassword" data-provider="LoginDataWithInvalidUsernameAndValidPassword" finished-at="2024-09-09T02:09:29 AEST" duration-ms="2448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword@784c3487]" started-at="2024-09-09T02:09:29 AEST" name="tearDown" finished-at="2024-09-09T02:09:29 AEST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword -->
+      <class name="testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword@2dd29a59]" started-at="2024-09-09T02:09:18 AEST" name="setup" finished-at="2024-09-09T02:09:20 AEST" duration-ms="2206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithValidUserNamesAndInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword@2dd29a59]" started-at="2024-09-09T02:09:21 AEST" name="testLoginWithValidUserNamesAndInvalidPassword" data-provider="LoginDataWithValidUsernameAndInvalidPassword" finished-at="2024-09-09T02:09:23 AEST" duration-ms="2448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sssecret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidUserNamesAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword@2dd29a59]" started-at="2024-09-09T02:09:23 AEST" name="tearDown" finished-at="2024-09-09T02:09:24 AEST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword -->
+      <class name="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824]" started-at="2024-09-09T02:10:52 AEST" name="setup" finished-at="2024-09-09T02:10:55 AEST" duration-ms="2192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRemovingItemsAddedToCartForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824]" started-at="2024-09-09T02:10:55 AEST" name="VerifyRemovingItemsAddedToCartForDifferentUsers" data-provider="ImageTestUsers" finished-at="2024-09-09T02:11:06 AEST" duration-ms="11477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemovingItemsAddedToCartForDifferentUsers -->
+        <test-method signature="VerifyRemovingItemsAddedToCartForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824]" started-at="2024-09-09T02:11:06 AEST" name="VerifyRemovingItemsAddedToCartForDifferentUsers" data-provider="ImageTestUsers" finished-at="2024-09-09T02:11:07 AEST" duration-ms="620" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemovingItemsAddedToCartForDifferentUsers -->
+        <test-method signature="VerifyRemovingItemsAddedToCartForDifferentUsers(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824]" started-at="2024-09-09T02:11:07 AEST" name="VerifyRemovingItemsAddedToCartForDifferentUsers" data-provider="ImageTestUsers" finished-at="2024-09-09T02:11:08 AEST" duration-ms="725" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to remove all items from cart for user problem_user expected [0] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to remove all items from cart for user problem_user expected [0] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemovingItemsAddedToCartForDifferentUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824]" started-at="2024-09-09T02:11:08 AEST" name="tearDown" finished-at="2024-09-09T02:11:08 AEST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers -->
+      <class name="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:08:42 AEST" name="setup" finished-at="2024-09-09T02:08:45 AEST" duration-ms="2787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestWithAcceptedUserNamesAndPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:08:46 AEST" name="loginTestWithAcceptedUserNamesAndPassword" data-provider="LoginDataWithAcceptedUsernameAndPassword" finished-at="2024-09-09T02:08:49 AEST" duration-ms="2923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithAcceptedUserNamesAndPassword -->
+        <test-method signature="loginTestWithAcceptedUserNamesAndPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:08:49 AEST" name="loginTestWithAcceptedUserNamesAndPassword" data-provider="LoginDataWithAcceptedUsernameAndPassword" finished-at="2024-09-09T02:09:02 AEST" duration-ms="12600" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+Test encountered an exception for user: locked_out_user - no such element: Unable to locate element: {"method":"css selector","selector":"#react\-burger\-menu\-btn"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f19972d7835690824a60d85a857529c, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\61434\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f19972d7835690824a60d85a857529c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+Test encountered an exception for user: locked_out_user - no such element: Unable to locate element: {"method":"css selector","selector":"#react\-burger\-menu\-btn"}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f19972d7835690824a60d85a857529c, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\61434\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f19972d7835690824a60d85a857529c
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithAcceptedUserNamesAndPassword -->
+        <test-method signature="loginTestWithAcceptedUserNamesAndPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:09:02 AEST" name="loginTestWithAcceptedUserNamesAndPassword" data-provider="LoginDataWithAcceptedUsernameAndPassword" finished-at="2024-09-09T02:09:05 AEST" duration-ms="2666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithAcceptedUserNamesAndPassword -->
+        <test-method signature="loginTestWithAcceptedUserNamesAndPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:09:05 AEST" name="loginTestWithAcceptedUserNamesAndPassword" data-provider="LoginDataWithAcceptedUsernameAndPassword" finished-at="2024-09-09T02:09:12 AEST" duration-ms="7633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithAcceptedUserNamesAndPassword -->
+        <test-method signature="loginTestWithAcceptedUserNamesAndPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:09:12 AEST" name="loginTestWithAcceptedUserNamesAndPassword" data-provider="LoginDataWithAcceptedUsernameAndPassword" finished-at="2024-09-09T02:09:15 AEST" duration-ms="2566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithAcceptedUserNamesAndPassword -->
+        <test-method signature="loginTestWithAcceptedUserNamesAndPassword(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:09:15 AEST" name="loginTestWithAcceptedUserNamesAndPassword" data-provider="LoginDataWithAcceptedUsernameAndPassword" finished-at="2024-09-09T02:09:17 AEST" duration-ms="2638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithAcceptedUserNamesAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50]" started-at="2024-09-09T02:09:17 AEST" name="tearDown" finished-at="2024-09-09T02:09:18 AEST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword -->
     </test> <!-- chrometest -->
   </suite> <!-- Suite -->
 </testng-results>

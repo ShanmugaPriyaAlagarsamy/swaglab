@@ -57,6 +57,5 @@ public class CheckoutPage {
         enterFirstName(firstName);
         enterLastName(lastName);
         enterPostalCode(postalCode);
-        clickContinue();
     }
 }
