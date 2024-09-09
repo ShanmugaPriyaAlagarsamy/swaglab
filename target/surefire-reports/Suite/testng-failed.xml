@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="chrometest(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyUniqueImagesForProducts" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers -->
+      <class name="testCases.TC010_VerifySortByPriceHighToLow">
+        <methods>
+          <include name="verifySortByPriceHighToLow" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC010_VerifySortByPriceHighToLow -->
+      <class name="testCases.TC012_VerifyUsersCanAddAllProductsToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyUsersCanAddAllProductsToCart" invocation-numbers="1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC012_VerifyUsersCanAddAllProductsToCart -->
+      <class name="testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTestWithAcceptedUserNamesAndPassword" invocation-numbers="1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword -->
+      <class name="testCases.TC009_VerifySortByPriceLowToHigh">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySortByPriceLowToHigh" invocation-numbers="1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC009_VerifySortByPriceLowToHigh -->
+      <class name="testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyRemovingItemsAddedToCartForDifferentUsers" invocation-numbers="1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

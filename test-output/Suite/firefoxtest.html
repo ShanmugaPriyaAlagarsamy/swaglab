@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>firefoxtest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 07 23:22:56 AEST 2024</td>
+<td>Started on:</td><td>Mon Sep 09 13:13:29 AEST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>41 seconds (41817 ms)</td>
+<tr><td>Total time:</td><td>103 seconds (103326 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,7 +76,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.LoginTestWithAcceptedUserNames.testLogin()'><b>testLogin</b><br>Test class: testCases.LoginTestWithAcceptedUserNames<br>Parameters: locked_out_user, secret_sauce</td>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: locked_out_user, secret_sauce</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
 	Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
 	Test encountered an exception for user: locked_out_user - Unable to locate element: #react\-burger\-menu\-btn
@@ -84,25 +84,29 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f15262f5-d737-403e-8c20-abe9d3ba5514, findElement {value=react-burger-menu-btn, using=id}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12620, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f15262f5-d737-403e-8c20-abe9d3ba5514
-	at testCases.LoginTestWithAcceptedUserNames.testLogin(LoginTestWithAcceptedUserNames.java:47)
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace871679849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace871679849'><pre>java.lang.AssertionError: The following asserts failed:
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2114014305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2114014305'><pre>java.lang.AssertionError: The following asserts failed:
 	Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
 	Test encountered an exception for user: locked_out_user - Unable to locate element: #react\-burger\-menu\-btn
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f15262f5-d737-403e-8c20-abe9d3ba5514, findElement {value=react-burger-menu-btn, using=id}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12620, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f15262f5-d737-403e-8c20-abe9d3ba5514
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at testCases.LoginTestWithAcceptedUserNames.testLogin(LoginTestWithAcceptedUserNames.java:47)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,21 +123,243 @@ Session ID: f15262f5-d737-403e-8c20-abe9d3ba5514
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>12</td>
-<td>testCases.LoginTestWithAcceptedUserNames@61ce23ac</td></tr>
+<td>13</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@3668d4</td></tr>
+<tr>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: visual_user, secret_sauce</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: visual_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: visual_user - Unable to locate element: #react\-burger\-menu\-btn
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace550467023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace550467023'><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: visual_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: visual_user - Unable to locate element: #react\-burger\-menu\-btn
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>13</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@3668d4</td></tr>
+<tr>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: performance_glitch_user, secret_sauce</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: performance_glitch_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: performance_glitch_user - Unable to locate element: #react\-burger\-menu\-btn
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1284993302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1284993302'><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: performance_glitch_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: performance_glitch_user - Unable to locate element: #react\-burger\-menu\-btn
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>13</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@3668d4</td></tr>
+<tr>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: problem_user, secret_sauce</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: problem_user - The element with the reference 52668cca-78e1-4962-90c8-2a13065d64c8 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@7396db81, id=52668cca-78e1-4962-90c8-2a13065d64c8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace954852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace954852'><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: problem_user - The element with the reference 52668cca-78e1-4962-90c8-2a13065d64c8 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@7396db81, id=52668cca-78e1-4962-90c8-2a13065d64c8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>3</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@3668d4</td></tr>
+<tr>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: error_user, secret_sauce</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: error_user - The element with the reference 4c8a3761-5995-49a6-98ec-5c4a8f84ecc3 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@4bbb58fb, id=4c8a3761-5995-49a6-98ec-5c4a8f84ecc3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1573226511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1573226511'><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: error_user - The element with the reference 4c8a3761-5995-49a6-98ec-5c4a8f84ecc3 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@4bbb58fb, id=4c8a3761-5995-49a6-98ec-5c4a8f84ecc3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>13</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@3668d4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -144,30 +370,10 @@ Session ID: f15262f5-d737-403e-8c20-abe9d3ba5514
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.LoginTestWithAcceptedUserNames.testLogin()'><b>testLogin</b><br>Test class: testCases.LoginTestWithAcceptedUserNames<br>Parameters: visual_user, secret_sauce</td>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: standard_user, secret_sauce</td>
 <td></td>
 <td>3</td>
-<td>testCases.LoginTestWithAcceptedUserNames@61ce23ac</td></tr>
-<tr>
-<td title='testCases.LoginTestWithAcceptedUserNames.testLogin()'><b>testLogin</b><br>Test class: testCases.LoginTestWithAcceptedUserNames<br>Parameters: problem_user, secret_sauce</td>
-<td></td>
-<td>3</td>
-<td>testCases.LoginTestWithAcceptedUserNames@61ce23ac</td></tr>
-<tr>
-<td title='testCases.LoginTestWithAcceptedUserNames.testLogin()'><b>testLogin</b><br>Test class: testCases.LoginTestWithAcceptedUserNames<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>3</td>
-<td>testCases.LoginTestWithAcceptedUserNames@61ce23ac</td></tr>
-<tr>
-<td title='testCases.LoginTestWithAcceptedUserNames.testLogin()'><b>testLogin</b><br>Test class: testCases.LoginTestWithAcceptedUserNames<br>Parameters: error_user, secret_sauce</td>
-<td></td>
-<td>3</td>
-<td>testCases.LoginTestWithAcceptedUserNames@61ce23ac</td></tr>
-<tr>
-<td title='testCases.LoginTestWithAcceptedUserNames.testLogin()'><b>testLogin</b><br>Test class: testCases.LoginTestWithAcceptedUserNames<br>Parameters: performance_glitch_user, secret_sauce</td>
-<td></td>
-<td>8</td>
-<td>testCases.LoginTestWithAcceptedUserNames@61ce23ac</td></tr>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@3668d4</td></tr>
 </table><p>
 </body>
 </html>

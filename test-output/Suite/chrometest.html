@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>chrometest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>23/8/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 09 02:08:42 AEST 2024</td>
+<td>Started on:</td><td>Mon Sep 09 13:13:29 AEST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>163 seconds (163228 ms)</td>
+<tr><td>Total time:</td><td>103 seconds (103326 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,209 +76,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers()'><b>VerifyRemovingItemsAddedToCartForDifferentUsers</b><br>Test class: testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers<br>Parameters: problem_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: Unable to remove all items from cart for user problem_user expected [0] but found [3]
-	at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1207739340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1207739340'><pre>java.lang.AssertionError: Unable to remove all items from cart for user problem_user expected [0] but found [3]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824</td></tr>
-<tr>
-<td title='testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts()'><b>verifyUniqueImagesForProducts</b><br>Test class: testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers<br>Parameters: problem_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: Duplicate product images found! Some products share the same image for user &apos;problem_user&apos; expected [6] but found [1]
-	at testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts(TC011_VerifyUniqueImagesForProductsForDifferentUsers.java:54)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace459330340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace459330340'><pre>java.lang.AssertionError: Duplicate product images found! Some products share the same image for user &apos;problem_user&apos; expected [6] but found [1]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts(TC011_VerifyUniqueImagesForProductsForDifferentUsers.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195</td></tr>
-<tr>
-<td title='testCases.TC010_VerifySortByPriceHighToLow.verifySortByPriceHighToLow()'><b>verifySortByPriceHighToLow</b><br>Test class: testCases.TC010_VerifySortByPriceHighToLow<br>Parameters: problem_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: Products are not sorted by price from High To Low for user problem_user: Lists differ at element [0]: 49.99 != 29.99 expected [49.99] but found [29.99]
-	at testCases.TC010_VerifySortByPriceHighToLow.verifySortByPriceHighToLow(TC010_VerifySortByPriceHighToLow.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2058533447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2058533447'><pre>java.lang.AssertionError: Products are not sorted by price from High To Low for user problem_user: Lists differ at element [0]: 49.99 != 29.99 expected [49.99] but found [29.99]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:1644)
-	at testCases.TC010_VerifySortByPriceHighToLow.verifySortByPriceHighToLow(TC010_VerifySortByPriceHighToLow.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC010_VerifySortByPriceHighToLow@61c9c3fd</td></tr>
-<tr>
-<td title='testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers()'><b>VerifyRemovingItemsAddedToCartForDifferentUsers</b><br>Test class: testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers<br>Parameters: locked_out_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-	at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1961147937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1961147937'><pre>java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers(TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824</td></tr>
-<tr>
-<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: locked_out_user, secret_sauce</td>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: performance_glitch_user, secret_sauce</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
-	Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
-	Test encountered an exception for user: locked_out_user - no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#react\-burger\-menu\-btn&quot;}
-  (Session info: chrome=128.0.6613.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+	Test encountered an exception for user: performance_glitch_user - The element with the reference d86d7be1-7115-4a9b-bd5e-88548ce34c95 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f19972d7835690824a60d85a857529c, findElement {value=react-burger-menu-btn, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\61434\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f19972d7835690824a60d85a857529c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@3745a114, id=d86d7be1-7115-4a9b-bd5e-88548ce34c95}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
 	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1137945509", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1137945509'><pre>java.lang.AssertionError: The following asserts failed:
-	Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
-	Test encountered an exception for user: locked_out_user - no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#react\-burger\-menu\-btn&quot;}
-  (Session info: chrome=128.0.6613.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace839765033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace839765033'><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: performance_glitch_user - The element with the reference d86d7be1-7115-4a9b-bd5e-88548ce34c95 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f19972d7835690824a60d85a857529c, findElement {value=react-burger-menu-btn, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\61434\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55767/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f19972d7835690824a60d85a857529c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@3745a114, id=d86d7be1-7115-4a9b-bd5e-88548ce34c95}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
@@ -298,277 +123,245 @@ Session ID: 8f19972d7835690824a60d85a857529c
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>12</td>
-<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50</td></tr>
-<tr>
-<td title='testCases.TC009_VerifySortByPriceLowToHigh.verifySortByPriceLowToHigh()'><b>verifySortByPriceLowToHigh</b><br>Test class: testCases.TC009_VerifySortByPriceLowToHigh<br>Parameters: problem_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: Products are not sorted by price from Low to High for problem_user: Lists differ at element [0]: 7.99 != 29.99 expected [7.99] but found [29.99]
-	at testCases.TC009_VerifySortByPriceLowToHigh.verifySortByPriceLowToHigh(TC009_VerifySortByPriceLowToHigh.java:53)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1282128509", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1282128509'><pre>java.lang.AssertionError: Products are not sorted by price from Low to High for problem_user: Lists differ at element [0]: 7.99 != 29.99 expected [7.99] but found [29.99]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:1644)
-	at testCases.TC009_VerifySortByPriceLowToHigh.verifySortByPriceLowToHigh(TC009_VerifySortByPriceLowToHigh.java:53)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC009_VerifySortByPriceLowToHigh@2d36e77e</td></tr>
-<tr>
-<td title='testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart()'><b>verifyUsersCanAddAllProductsToCart</b><br>Test class: testCases.TC012_VerifyUsersCanAddAllProductsToCart<br>Parameters: locked_out_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-	at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace912677905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace912677905'><pre>java.lang.AssertionError: Login failed! URL mismatch for user: locked_out_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480</td></tr>
-<tr>
-<td title='testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart()'><b>verifyUsersCanAddAllProductsToCart</b><br>Test class: testCases.TC012_VerifyUsersCanAddAllProductsToCart<br>Parameters: problem_user, secret_sauce</td>
-<td><div><pre>java.lang.AssertionError: The number of products added to the cart does not match the total number of products. expected [6] but found [3]
-	at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:46)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace287923377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace287923377'><pre>java.lang.AssertionError: The number of products added to the cart does not match the total number of products. expected [6] but found [3]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart(TC012_VerifyUsersCanAddAllProductsToCart.java:46)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers.VerifyRemovingItemsAddedToCartForDifferentUsers()'><b>VerifyRemovingItemsAddedToCartForDifferentUsers</b><br>Test class: testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC013_VerifyRemovingItemsAddedToCartForDifferentUsers@2c7b5824</td></tr>
-<tr>
-<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: performance_glitch_user, secret_sauce</td>
-<td></td>
-<td>7</td>
-<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50</td></tr>
-<tr>
-<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: visual_user, secret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50</td></tr>
-<tr>
-<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50</td></tr>
-<tr>
-<td title='testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword.testLoginWithInvalidUserNameAndInvalidPassword()'><b>testLoginWithInvalidUserNameAndInvalidPassword</b><br>Test class: testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword<br>Parameters: wrong_user1, sssecret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC004_VerifyLoginFunctionalityWithInvalidUserNameAndInvalidPassword@53142455</td></tr>
-<tr>
-<td title='testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword.testLoginWithInvalidUserNameAndValidPassword()'><b>testLoginWithInvalidUserNameAndValidPassword</b><br>Test class: testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword<br>Parameters: sample_user, secret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC003_VerifyLoginFunctionalityWithInvalidUserNameAndValidPassword@784c3487</td></tr>
-<tr>
-<td title='testCases.TC010_VerifySortByPriceHighToLow.verifySortByPriceHighToLow()'><b>verifySortByPriceHighToLow</b><br>Test class: testCases.TC010_VerifySortByPriceHighToLow<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC010_VerifySortByPriceHighToLow@61c9c3fd</td></tr>
-<tr>
-<td title='testCases.TC012_VerifyUsersCanAddAllProductsToCart.verifyUsersCanAddAllProductsToCart()'><b>verifyUsersCanAddAllProductsToCart</b><br>Test class: testCases.TC012_VerifyUsersCanAddAllProductsToCart<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC012_VerifyUsersCanAddAllProductsToCart@366c4480</td></tr>
-<tr>
-<td title='testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword.testLoginWithValidUserNamesAndInvalidPassword()'><b>testLoginWithValidUserNamesAndInvalidPassword</b><br>Test class: testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword<br>Parameters: standard_user, sssecret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC002_VerifyLoginFunctionalityWithValidUserNamesAndInvalidPassword@2dd29a59</td></tr>
+<td>3</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@23bff419</td></tr>
 <tr>
 <td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: problem_user, secret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50</td></tr>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: problem_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: problem_user - Unable to locate element: #react\-burger\-menu\-btn
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace921025618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace921025618'><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: problem_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: problem_user - Unable to locate element: #react\-burger\-menu\-btn
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>24</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@23bff419</td></tr>
 <tr>
-<td title='testCases.TC007_VerifySortByNameAtoZ.verifySortByNameAtoZ()'><b>verifySortByNameAtoZ</b><br>Test class: testCases.TC007_VerifySortByNameAtoZ<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC007_VerifySortByNameAtoZ@60975100</td></tr>
-<tr>
-<td title='testCases.TC008_VerifySortByNameZtoA.verifySortByNameZtoA()'><b>verifySortByNameZtoA</b><br>Test class: testCases.TC008_VerifySortByNameZtoA<br>Parameters: problem_user, secret_sauce</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC008_VerifySortByNameZtoA@1253e7cb</td></tr>
-<tr>
-<td title='testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword.loginTestWithBlankUsernameAndValidPassword()'><b>loginTestWithBlankUsernameAndValidPassword</b><br>Test class: testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword<br>Parameters: , secret_sauce</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC005_VerifyErrorMessageWhenLoginWithBlankUsernameAndPassword@40dff0b7</td></tr>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: standard_user, secret_sauce</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: standard_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: standard_user - no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#react\-burger\-menu\-btn&quot;}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [91ab96c5cd585aa826cd84759862098f, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52833}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\61434\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52833/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 91ab96c5cd585aa826cd84759862098f
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace31355447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace31355447'><pre>java.lang.AssertionError: The following asserts failed:
+	Login failed! URL mismatch for user: standard_user expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/],
+	Test encountered an exception for user: standard_user - no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#react\-burger\-menu\-btn&quot;}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [91ab96c5cd585aa826cd84759862098f, findElement {value=react-burger-menu-btn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52833}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\61434\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52833/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 91ab96c5cd585aa826cd84759862098f
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>34</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@23bff419</td></tr>
 <tr>
 <td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: error_user, secret_sauce</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@7e5d9a50</td></tr>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: error_user - The element with the reference 1f1668b1-cdf6-4dad-b1af-4d78d09e7eaf is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@560f9e7e, id=1f1668b1-cdf6-4dad-b1af-4d78d09e7eaf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace415826851", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace415826851'><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: error_user - The element with the reference 1f1668b1-cdf6-4dad-b1af-4d78d09e7eaf is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@560f9e7e, id=1f1668b1-cdf6-4dad-b1af-4d78d09e7eaf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>3</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@23bff419</td></tr>
 <tr>
-<td title='testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts()'><b>verifyUniqueImagesForProducts</b><br>Test class: testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195</td></tr>
-<tr>
-<td title='testCases.TC006_VerifySortFunctionIsAvailable.verifySortFunctionIsAvailable()'><b>verifySortFunctionIsAvailable</b><br>Test class: testCases.TC006_VerifySortFunctionIsAvailable<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC006_VerifySortFunctionIsAvailable@7966baa7</td></tr>
-<tr>
-<td title='testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers.verifyUniqueImagesForProducts()'><b>verifyUniqueImagesForProducts</b><br>Test class: testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers<br>Parameters: locked_out_user, secret_sauce</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC011_VerifyUniqueImagesForProductsForDifferentUsers@3b0c9195</td></tr>
-<tr>
-<td title='testCases.TC009_VerifySortByPriceLowToHigh.verifySortByPriceLowToHigh()'><b>verifySortByPriceLowToHigh</b><br>Test class: testCases.TC009_VerifySortByPriceLowToHigh<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC009_VerifySortByPriceLowToHigh@2d36e77e</td></tr>
-<tr>
-<td title='testCases.TC014_VerifyCheckoutFeatureForDifferentUsers.verifyCheckoutFeatureForDifferentUsers()'><b>verifyCheckoutFeatureForDifferentUsers</b><br>Test class: testCases.TC014_VerifyCheckoutFeatureForDifferentUsers<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@302a07d</td></tr>
-<tr>
-<td title='testCases.TC008_VerifySortByNameZtoA.verifySortByNameZtoA()'><b>verifySortByNameZtoA</b><br>Test class: testCases.TC008_VerifySortByNameZtoA<br>Parameters: standard_user, secret_sauce</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC008_VerifySortByNameZtoA@1253e7cb</td></tr>
-<tr>
-<td title='testCases.TC006_VerifySortFunctionIsAvailable.verifySortFunctionIsAvailable()'><b>verifySortFunctionIsAvailable</b><br>Test class: testCases.TC006_VerifySortFunctionIsAvailable<br>Parameters: problem_user, secret_sauce</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC006_VerifySortFunctionIsAvailable@7966baa7</td></tr>
-<tr>
-<td title='testCases.TC007_VerifySortByNameAtoZ.verifySortByNameAtoZ()'><b>verifySortByNameAtoZ</b><br>Test class: testCases.TC007_VerifySortByNameAtoZ<br>Parameters: problem_user, secret_sauce</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC007_VerifySortByNameAtoZ@60975100</td></tr>
-<tr>
-<td title='testCases.TC014_VerifyCheckoutFeatureForDifferentUsers.verifyCheckoutFeatureForDifferentUsers()'><b>verifyCheckoutFeatureForDifferentUsers</b><br>Test class: testCases.TC014_VerifyCheckoutFeatureForDifferentUsers<br>Parameters: problem_user, secret_sauce</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC014_VerifyCheckoutFeatureForDifferentUsers@302a07d</td></tr>
+<td title='testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword()'><b>loginTestWithAcceptedUserNamesAndPassword</b><br>Test class: testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword<br>Parameters: locked_out_user, secret_sauce</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: locked_out_user - The element with the reference d45dbe7b-ce2b-4da5-9460-33b6e26db8d4 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@7871b49d, id=d45dbe7b-ce2b-4da5-9460-33b6e26db8d4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace520986898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace520986898'><pre>java.lang.AssertionError: The following asserts failed:
+	Test encountered an exception for user: locked_out_user - The element with the reference d45dbe7b-ce2b-4da5-9460-33b6e26db8d4 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [164a26d1-64ec-4546-9134-eba41776c3bf, sendKeysToElement {value=[Ljava.lang.CharSequence;@7871b49d, id=d45dbe7b-ce2b-4da5-9460-33b6e26db8d4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19808, moz:profile: C:\Users\61434\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (164a26d1-64ec-4546-9134-eba41776c3bf)] -&gt; id: user-name]
+Session ID: 164a26d1-64ec-4546-9134-eba41776c3bf
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.loginTestWithAcceptedUserNamesAndPassword(TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>3</td>
+<td>testCases.TC001_VerifyLoginFunctionalityWithAcceptedUsernamesAndPassword@23bff419</td></tr>
 </table><p>
 </body>
 </html>
